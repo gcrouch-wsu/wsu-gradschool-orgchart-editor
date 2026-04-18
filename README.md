@@ -1,8 +1,8 @@
-# WSU Org Chart Editor
+# WSU Gradschool Orgchart Editor
 
-Org chart **builder and exporter** for WSU Graduate School. This is a **Next.js** app, split out from the former [WSU Graduate School Tools](https://github.com/gcrouch-wsu/WSU-Mail-Editor) monorepo as its own repository.
+Org chart **builder and exporter** for WSU Graduate School. This is a **Next.js** app, split out from the former WSU Graduate School tools monorepo as its own repository.
 
-**Repository:** [github.com/gcrouch-wsu/WP-org-chart-editor](https://github.com/gcrouch-wsu/WP-org-chart-editor)
+**Repository:** [github.com/gcrouch-wsu/wsu-gradschool-orgchart-editor](https://github.com/gcrouch-wsu/wsu-gradschool-orgchart-editor)
 
 ## What it does
 
@@ -19,8 +19,8 @@ Org chart **builder and exporter** for WSU Graduate School. This is a **Next.js*
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/gcrouch-wsu/WP-org-chart-editor.git
-cd wp-org-chart-editor
+git clone https://github.com/gcrouch-wsu/wsu-gradschool-orgchart-editor.git
+cd wsu-gradschool-orgchart-editor
 ```
 
 2. Install dependencies:
@@ -49,7 +49,7 @@ For production hosting (e.g. Railway), use a **`start`** script that runs **`nex
 ## Project structure
 
 ```
-wp-org-chart-editor/
+wsu-gradschool-orgchart-editor/
 |-- app/                 # Next.js App Router (pages + API routes)
 |-- components/        # React components
 |-- public/            # Static assets (e.g. Wordpress.js, admin.js)
@@ -72,11 +72,9 @@ wp-org-chart-editor/
 
 ## Deployment
 
-### Current production (legacy Vercel)
+### Current production
 
-Originally deployed from the monorepo with root directory `apps/org-chart-editor`:
-
-**https://wsu-mail-editor-org-chart-editor.vercel.app/**
+If this app is still deployed from an older Vercel project, the hostname may predate the current repository name.
 
 ### This repository
 
@@ -84,7 +82,7 @@ Deploy from **this** repo with the **repository root** as the app root. Target: 
 
 ## Related WSU Graduate School tools
 
-Other tools remain in the monorepo ([WSU-Mail-Editor](https://github.com/gcrouch-wsu/WSU-Mail-Editor)) until split out separately. See that repository’s README for links to the platform, newsletter editor, translation tables, validate, and factsheet apps.
+This repo is maintained independently from the other Graduate School tools.
 
 ## Environment variables
 
